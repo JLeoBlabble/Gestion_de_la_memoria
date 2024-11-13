@@ -39,7 +39,7 @@ https://github.com/JLeoBlabble/Gestion_de_la_memoria.git
         return 0;
     }
 
-##Explicación paso a paso:
+## Explicación paso a paso:
 
 Primero, importamos las bibliotecas necesarias para la asignación de memoria y la creación de procesos.
 
