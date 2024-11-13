@@ -1,5 +1,7 @@
 # Gestion_de_la_memoria
 
+### Parece que Mac tiene pre-instalado las librerías para hacer funcionar este código (al copiarlo me daba un solo error. En Windows te sale 12 y tienes que realizar pasos extra).
+
 https://github.com/JLeoBlabble/Gestion_de_la_memoria.git 
 
 
