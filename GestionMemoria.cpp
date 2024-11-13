@@ -2,7 +2,6 @@
 // Created by Leo Seguin-Sanchez on 13/11/2024.
 //
 
-#include "GestionMemoria.h"
 #include <sys/mman.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -13,7 +12,7 @@
 #define SIZE 4096
 
 int main() {
-    char *shared_memory = (char *)mmap(NULL, SIZE, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0);
+    char *shared_memory = (char *)mmap(NULL, SIZE, PROT_READ|PROT_WRITE, MAP_SHARED|MAP_ANONYMOUS, -1, 0); // Añades un "(char *)" para que no de error
     if (shared_memory == MAP_FAILED) {
         perror("mmap");
         exit(EXIT_FAILURE);
